@@ -59,4 +59,10 @@ console.log(`insertionSort took ${t3-t2}ns`)
 
 ## caveats
 
+#### calling the module
+
+Make sure you call the module before using it (e.g. `require("atlas-hrtime")()`). The return value of the exported function is the clock. This was done to keep the module easily testable.
+
+#### units
+
 All units are in nanoseconds, plain and simple -- this keeps the module minimal. You can convert to other units manually.
