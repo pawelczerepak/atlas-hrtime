@@ -29,10 +29,6 @@
     "darwin",
     "linux"
   ],
-  "engines": {
-    "node": ">=10.1.0",
-    "npm": ">=6.0.1"
-  },
   "homepage": "https://github.com/atlassubbed/atlas-hrtime#readme",
   "bugs": "https://github.com/atlassubbed/atlas-hrtime/issues",
   "repository": {
